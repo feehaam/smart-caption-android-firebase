@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Category">
+
+    <TextView
+        android:textColor="#008800"
+        android:text="CATEGORIES"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:padding="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTop"
+        android:shadowColor="#333333"
+        android:shadowRadius="1"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/funny"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/funny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Funny"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/quotes"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/quotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quotes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/wish"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/wish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wish"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/romantic"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/romantic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Romantic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/religious"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/religious"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Religious"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/festival"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/festival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Festival"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/peomandsong"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/poemandsong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poem and Song"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/depressed"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/depressed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Depressed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#eeeeee"
+        android:padding="1dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/nature"
+            android:background="#ffffff"
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:id="@+id/nature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nature"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
